@@ -1,6 +1,6 @@
-package structs
+package views
 
 type Resonse struct{
 	Code int `"json:"code"`
-	Body int `"json:"body"`
+	Body interface{} `"json:"body"`
 }
